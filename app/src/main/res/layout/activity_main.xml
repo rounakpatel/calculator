@@ -66,16 +66,63 @@
             android:text="-"
             android:layout_weight="1" android:textSize="20sp"/>
     </TableRow>
-    <TableRow android:layout_width="match_parent" android:layout_height="match_parent">
-        <Button android:id="@+id/button7" android:text="7" android:layout_weight="1" android:textSize="20sp"/>
-        <Button android:id="@+id/button8" android:text="8" android:layout_weight="1" android:textSize="20sp"/>
-        <Button android:id="@+id/button9" android:text="9" android:layout_weight="1" android:textSize="20sp"/>
-        <Button android:id="@+id/buttonMul" android:text="*" android:layout_weight="1" android:textSize="20sp"/>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/button7"
+            android:text="7"
+            android:layout_weight="1"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/button8"
+            android:text="8"
+            android:layout_weight="1"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/button9"
+            android:text="9"
+            android:layout_weight="1"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/buttonMul"
+            android:text="*"
+            android:layout_weight="1"
+            android:textSize="20sp"/>
+
     </TableRow>
-    <TableRow android:layout_width="match_parent" android:layout_height="match_parent">
-        <Button android:id="@+id/buttonClear" android:text="CLEAR" android:layout_weight="1" android:textSize="20sp"/>
-        <Button android:id="@+id/button0" android:text="0" android:layout_weight="1" android:textSize="20sp"/>
-        <Button android:id="@+id/buttonEqual" android:text="=" android:layout_weight="1" android:textSize="20sp"/>
-        <Button android:id="@+id/buttonDiv" android:text="/" android:layout_weight="1" android:textSize="20sp"/>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/buttonClear"
+            android:text="CLEAR"
+            android:layout_weight="1"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/button0"
+            android:text="0"
+            android:layout_weight="1"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/buttonEqual"
+            android:text="="
+            android:layout_weight="1"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/buttonDiv"
+            android:text="/"
+            android:layout_weight="1"
+            android:textSize="20sp"/>
     </TableRow>
 </TableLayout>
